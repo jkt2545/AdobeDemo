@@ -4,12 +4,13 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 .cards > ul > li {
   border: 1px solid #dadada;
-  background-color: var(--background-color);
+  background-color: #ff69b4; /* hot pink */
+  color: #000; /* keeps text readable on pink */
 }
 
 .cards .cards-card-body {
